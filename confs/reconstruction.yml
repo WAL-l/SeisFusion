@@ -1,4 +1,4 @@
-gama: 0.65
+gama: 0.5
 attention_resolutions: 32,16,8
 class_cond: false
 diffusion_steps: 1000

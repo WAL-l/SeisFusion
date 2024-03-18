@@ -144,7 +144,7 @@ def main(conf: conf_mgt.Default_Conf):
 
         n_sample=(result.get('gt') * model_kwargs.get('gt_keep_mask') + result['sample']* (1 - model_kwargs.get('gt_keep_mask')))
         n_sample = n_sample.cpu().numpy()
-        np.save(f"./xiaorong/rec/0.65_10_1/{batch['GT_name'][0]}", n_sample[0][0])
+        np.save(f"./log/{batch['GT_name'][0]}", n_sample[0][0])
 
         n_masked = (result.get('gt') * model_kwargs.get('gt_keep_mask') )
         n_masked = n_masked.cpu().numpy()
