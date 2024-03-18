@@ -9,6 +9,7 @@ import enum
 import math
 
 import numpy as np
+import torch
 import torch as th
 
 from .nn import mean_flat
@@ -554,6 +555,7 @@ class GaussianDiffusion:
             model,
             x,
             t,
+            condition=x,
             clip_denoised=clip_denoised,
             denoised_fn=denoised_fn,
             model_kwargs=model_kwargs,

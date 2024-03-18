@@ -19,7 +19,7 @@ def main():
     args = create_argparser().parse_args()
 
     dist_util.setup_dist()
-    logger.configure("./log_npy_mob")
+    logger.configure("mod3/iso")
 
     logger.log("creating model and diffusion...")
     model, diffusion = create_model_and_diffusion(
@@ -58,7 +58,7 @@ def main():
 
 def create_argparser():
     defaults = dict(
-        data_dir="./datasets/line12",
+        data_dir="./datasets2/iso",
         schedule_sampler="uniform",
         lr=2e-5,
         weight_decay=0.0,

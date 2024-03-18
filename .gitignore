@@ -159,5 +159,21 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 /.idea
-log_npy_mob
 datasets/line12
+datasets/iso
+mod/mod_iso_cosine
+mod/mod_line12
+mod/mod_iso
+log
+log_iso_cosine
+mod/mod_iso_cosine_flip
+mod
+datasets
+datasets2
+log2
+mod2
+mod3
+log3
+image_sample.py
+xiaorong
+./confs/diff.yml

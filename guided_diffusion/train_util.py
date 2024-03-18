@@ -159,9 +159,9 @@ class TrainLoop:
 
             # mask
             batch_c = batch.clone()
-            mask = torch.full((1, 1, 64, 32, 32), 1)
-            start = randint(1, 32)
-            end = randint(start, 32)
+            mask = torch.full((1, 1, 16, 32, 128), 1)
+            start = randint(4, 124)
+            end = randint(start, 124)
             mask[:, :, :, :, start:end] = 0
             mask_batch = torch.mul(batch_c, mask)
 
