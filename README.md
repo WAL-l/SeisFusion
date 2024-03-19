@@ -1,5 +1,5 @@
 # SeisFusion
-this is the code implementation of "SeisFusion: Constrained Diffusion Model with Input Guidance for 3D Seismic Data Interpolation and Reconstruction"
+this is the code implementation of "[SeisFusion: Constrained Diffusion Model with Input Guidance for 3D Seismic Data Interpolation and Reconstruction](https://arxiv.org/abs/2403.11482)"
 
 # Train
 
